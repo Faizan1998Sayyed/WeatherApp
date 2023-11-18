@@ -1,0 +1,36 @@
+section.section {
+  width: 151.933px;
+  height: 275.52px;
+  text-align: center;
+}
+
+section.section hr {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.date {
+  color: #444444;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+section.section article {
+  padding: 18px 0;
+  display: grid;
+  gap: 12px;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 7px;
+  background: linear-gradient(180deg, #464646 0%, #1d2540 100%);
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.weather {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  height: 54px;
+}

@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 10px 30px;
+  background: rgba(0, 0, 0, 0.49);
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.12);
+}
+
+.navbar .logo,
+.navbar .refresh {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  gap: 10px;
+}
+
+@media screen and (max-width: 482px) {
+  .navbar {
+    padding: 10px 10px;
+  }
+  .navbar .refresh {
+    flex-direction: column;
+    gap: 4px;
+  }
+}

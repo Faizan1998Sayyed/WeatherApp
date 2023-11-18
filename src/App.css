@@ -1,0 +1,20 @@
+.body-wrapper {
+  width: min(100% - 2rem, 1200px);
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.weather-title-card-wrapper {
+  margin-top: 3rem;
+  display: flex;
+  gap: 1rem;
+  min-height: 306px;
+}
+
+.weather-card-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  width: 100%;
+  overflow: auto;
+}
